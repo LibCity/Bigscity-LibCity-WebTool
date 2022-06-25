@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://bigscity-libcity-docs.readthedocs.io/en/latest/index.html -->
+<html class="writer-html5" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Welcome to Bigscity-LibCity’s documentation! — Bigscity-LibCity  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="./homepage_files/theme.css" type="text/css">
+  <link rel="stylesheet" href="./homepage_files/pygments.css" type="text/css">
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" id="documentation_options" data-url_root="./" src="./homepage_files/documentation_options.js.下载"></script>
+        <script src="./homepage_files/jquery.js.下载"></script>
+        <script src="./homepage_files/underscore.js.下载"></script>
+        <script src="./homepage_files/doctools.js.下载"></script>
+        <script src="./homepage_files/language_data.js.下载"></script>
+        
+        <script async="async" src="./homepage_files/readthedocs-doc-embed.js.下载"></script>
+    
+    <script type="text/javascript" src="./homepage_files/theme.js.下载"></script>
+
+    
+    <link rel="index" title="Index" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/genindex.html">
+    <link rel="search" title="Search" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/search.html">
+    <link rel="next" title="Introduction" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/introduction.html"> 
+
+<!-- RTD Extra Head -->
+
+<link rel="stylesheet" href="./homepage_files/readthedocs-doc-embed.css" type="text/css">
+
+<script type="application/json" id="READTHEDOCS_DATA">{"ad_free": false, "api_host": "https://readthedocs.org", "build_date": "2021-12-29T03:39:21Z", "builder": "sphinx", "canonical_url": null, "commit": "24b7ecb9", "docroot": "/source/", "features": {"docsearch_disabled": false}, "global_analytics_code": "UA-17997319-1", "language": "en", "page": "index", "programming_language": "py", "project": "bigscity-libcity-docs", "proxied_api_host": "/_", "source_suffix": ".rst", "subprojects": {}, "theme": "sphinx_rtd_theme", "user_analytics_code": "", "version": "latest"}</script>
+
+<!--
+Using this variable directly instead of using `JSON.parse` is deprecated.
+The READTHEDOCS_DATA global variable will be removed in the future.
+-->
+<script type="text/javascript">
+READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerHTML);
+</script>
+
+<script type="text/javascript" src="./homepage_files/readthedocs-analytics.js.下载" async="async"></script>
+
+<!-- end RTD <extrahead> -->
+<script type="text/javascript" async="" src="./homepage_files/MathJax.js.下载"></script><script src="./homepage_files/js" type="text/javascript" async=""></script><script src="./homepage_files/ethicalads.min.js.下载" type="text/javascript" async="" id="ethicaladsjs"></script><style>[data-ea-publisher].loaded,[data-ea-type].loaded{font-size:14px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;font-weight:normal;font-style:normal;leter-spacing:0px;vertical-align:baseline;line-height:1.3em}[data-ea-publisher].loaded a,[data-ea-type].loaded a{text-decoration:none}[data-ea-publisher].loaded .ea-pixel,[data-ea-type].loaded .ea-pixel{display:none}[data-ea-publisher].loaded .ea-content,[data-ea-type].loaded .ea-content{margin:1em 1em 0.5em 1em;padding:1em;background:rgba(0,0,0,0.03);color:#505050}[data-ea-publisher].loaded .ea-content a:link,[data-ea-type].loaded .ea-content a:link{color:#505050}[data-ea-publisher].loaded .ea-content a:visited,[data-ea-type].loaded .ea-content a:visited{color:#505050}[data-ea-publisher].loaded .ea-content a:hover,[data-ea-type].loaded .ea-content a:hover{color:#373737}[data-ea-publisher].loaded .ea-content a:active,[data-ea-type].loaded .ea-content a:active{color:#373737}[data-ea-publisher].loaded .ea-content a strong,[data-ea-publisher].loaded .ea-content a b,[data-ea-type].loaded .ea-content a strong,[data-ea-type].loaded .ea-content a b{color:#088cdb}[data-ea-publisher].loaded .ea-callout a:link,[data-ea-type].loaded .ea-callout a:link{color:#6a6a6a}[data-ea-publisher].loaded .ea-callout a:visited,[data-ea-type].loaded .ea-callout a:visited{color:#6a6a6a}[data-ea-publisher].loaded .ea-callout a:hover,[data-ea-type].loaded .ea-callout a:hover{color:#505050}[data-ea-publisher].loaded .ea-callout a:active,[data-ea-type].loaded .ea-callout a:active{color:#505050}[data-ea-publisher].loaded .ea-callout a strong,[data-ea-publisher].loaded .ea-callout a b,[data-ea-type].loaded .ea-callout a strong,[data-ea-type].loaded .ea-callout a b{color:#088cdb}[data-ea-publisher].loaded .ea-callout a,[data-ea-type].loaded .ea-callout a{font-size:0.8em}[data-ea-publisher].loaded.dark .ea-content,[data-ea-type].loaded.dark .ea-content{background:rgba(255,255,255,0.05);color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-content a:link,[data-ea-type].loaded.dark .ea-content a:link{color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-content a:visited,[data-ea-type].loaded.dark .ea-content a:visited{color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-content a:hover,[data-ea-type].loaded.dark .ea-content a:hover{color:#f6f6f6}[data-ea-publisher].loaded.dark .ea-content a:active,[data-ea-type].loaded.dark .ea-content a:active{color:#f6f6f6}[data-ea-publisher].loaded.dark .ea-content a strong,[data-ea-publisher].loaded.dark .ea-content a b,[data-ea-type].loaded.dark .ea-content a strong,[data-ea-type].loaded.dark .ea-content a b{color:#50baf9}[data-ea-publisher].loaded.dark .ea-callout a:link,[data-ea-type].loaded.dark .ea-callout a:link{color:#c3c3c3}[data-ea-publisher].loaded.dark .ea-callout a:visited,[data-ea-type].loaded.dark .ea-callout a:visited{color:#c3c3c3}[data-ea-publisher].loaded.dark .ea-callout a:hover,[data-ea-type].loaded.dark .ea-callout a:hover{color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-callout a:active,[data-ea-type].loaded.dark .ea-callout a:active{color:#dcdcdc}[data-ea-publisher].loaded.dark .ea-callout a strong,[data-ea-publisher].loaded.dark .ea-callout a b,[data-ea-type].loaded.dark .ea-callout a strong,[data-ea-type].loaded.dark .ea-callout a b{color:#50baf9}@media (prefers-color-scheme: dark){[data-ea-publisher].loaded.adaptive .ea-content,[data-ea-type].loaded.adaptive .ea-content{background:rgba(255,255,255,0.05);color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-content a:link,[data-ea-type].loaded.adaptive .ea-content a:link{color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-content a:visited,[data-ea-type].loaded.adaptive .ea-content a:visited{color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-content a:hover,[data-ea-type].loaded.adaptive .ea-content a:hover{color:#f6f6f6}[data-ea-publisher].loaded.adaptive .ea-content a:active,[data-ea-type].loaded.adaptive .ea-content a:active{color:#f6f6f6}[data-ea-publisher].loaded.adaptive .ea-content a strong,[data-ea-publisher].loaded.adaptive .ea-content a b,[data-ea-type].loaded.adaptive .ea-content a strong,[data-ea-type].loaded.adaptive .ea-content a b{color:#50baf9}[data-ea-publisher].loaded.adaptive .ea-callout a:link,[data-ea-type].loaded.adaptive .ea-callout a:link{color:#c3c3c3}[data-ea-publisher].loaded.adaptive .ea-callout a:visited,[data-ea-type].loaded.adaptive .ea-callout a:visited{color:#c3c3c3}[data-ea-publisher].loaded.adaptive .ea-callout a:hover,[data-ea-type].loaded.adaptive .ea-callout a:hover{color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-callout a:active,[data-ea-type].loaded.adaptive .ea-callout a:active{color:#dcdcdc}[data-ea-publisher].loaded.adaptive .ea-callout a strong,[data-ea-publisher].loaded.adaptive .ea-callout a b,[data-ea-type].loaded.adaptive .ea-callout a strong,[data-ea-type].loaded.adaptive .ea-callout a b{color:#50baf9}}[data-ea-publisher].loaded .ea-content,[data-ea-type].loaded .ea-content{border:0px;border-radius:3px;box-shadow:0px 2px 3px rgba(0,0,0,0.15)}[data-ea-publisher].loaded.raised .ea-content,[data-ea-type].loaded.raised .ea-content{border:0px;border-radius:3px;box-shadow:0px 2px 3px rgba(0,0,0,0.15)}[data-ea-publisher].loaded.bordered .ea-content,[data-ea-type].loaded.bordered .ea-content{border:1px solid rgba(0,0,0,0.04);border-radius:3px;box-shadow:none}[data-ea-publisher].loaded.bordered.dark .ea-content,[data-ea-type].loaded.bordered.dark .ea-content{border:1px solid rgba(255,255,255,0.07)}@media (prefers-color-scheme: dark){[data-ea-publisher].loaded.bordered.adaptive .ea-content,[data-ea-type].loaded.bordered.adaptive .ea-content{border:1px solid rgba(255,255,255,0.07)}}[data-ea-publisher].loaded.flat .ea-content,[data-ea-type].loaded.flat .ea-content{border:0px;border-radius:3px;box-shadow:none}[data-ea-type="image"].loaded,[data-ea-publisher]:not([data-ea-type]).loaded,.ea-type-image{display:inline-block}[data-ea-type="image"].loaded .ea-content,[data-ea-publisher]:not([data-ea-type]).loaded .ea-content,.ea-type-image .ea-content{max-width:180px;overflow:auto;text-align:center}[data-ea-type="image"].loaded .ea-content>a>img,[data-ea-publisher]:not([data-ea-type]).loaded .ea-content>a>img,.ea-type-image .ea-content>a>img{width:120px;height:90px;display:inline-block}[data-ea-type="image"].loaded .ea-content>.ea-text,[data-ea-publisher]:not([data-ea-type]).loaded .ea-content>.ea-text,.ea-type-image .ea-content>.ea-text{margin-top:1em;font-size:1em;text-align:center}[data-ea-type="image"].loaded .ea-callout,[data-ea-publisher]:not([data-ea-type]).loaded .ea-callout,.ea-type-image .ea-callout{max-width:180px;margin:0em 1em 1em 1em;padding-left:1em;padding-right:1em;font-style:italic;text-align:right}[data-ea-type="image"].loaded.horizontal .ea-content,[data-ea-publisher]:not([data-ea-type]).loaded.horizontal .ea-content,.ea-type-image.horizontal .ea-content{max-width:320px}[data-ea-type="image"].loaded.horizontal .ea-content>a>img,[data-ea-publisher]:not([data-ea-type]).loaded.horizontal .ea-content>a>img,.ea-type-image.horizontal .ea-content>a>img{float:left;margin-right:1em}[data-ea-type="image"].loaded.horizontal .ea-content .ea-text,[data-ea-publisher]:not([data-ea-type]).loaded.horizontal .ea-content .ea-text,.ea-type-image.horizontal .ea-content .ea-text{margin-top:0em;text-align:left;overflow:auto}[data-ea-type="image"].loaded.horizontal .ea-callout,[data-ea-publisher]:not([data-ea-type]).loaded.horizontal .ea-callout,.ea-type-image.horizontal .ea-callout{max-width:320px;text-align:right}[data-ea-type="text"].loaded,.ea-type-text{font-size:14px}[data-ea-type="text"].loaded .ea-content,.ea-type-text .ea-content{text-align:left}[data-ea-type="text"].loaded .ea-callout,.ea-type-text .ea-callout{margin:0.5em 1em 1em 1em;padding-left:1em;padding-right:1em;text-align:right;font-style:italic}[data-ea-style="stickybox"].loaded .ea-type-image{z-index:1000;position:fixed;bottom:20px;right:20px}[data-ea-style="stickybox"].loaded .ea-type-image .ea-stickybox-hide{cursor:pointer;position:absolute;top:0.75em;right:0.75em;background-color:#fefefe;border:1px solid #088cdb;border-radius:50%;color:#088cdb;font-size:1em;text-align:center;height:1.5em;width:1.5em;line-height:1.5em}@media (max-width: 1300px){[data-ea-style="stickybox"].loaded .ea-type-image{position:static;bottom:0;right:0;margin:auto;text-align:center}[data-ea-style="stickybox"].loaded .ea-type-image .ea-stickybox-hide{display:none}}@media (min-width: 1301px){[data-ea-style="stickybox"].loaded .ea-type-image .ea-content{background:#dcdcdc}[data-ea-style="stickybox"].loaded.dark .ea-type-image .ea-content{background:#505050}}@media (min-width: 1301px) and (prefers-color-scheme: dark){[data-ea-style="stickybox"].loaded.adaptive .ea-type-image .ea-content{background:#505050}}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><script src="./homepage_files/saved_resource" type="text/javascript" async=""></script></head>
+
+<body class="wy-body-for-nav"><div id="MathJax_Message" style="display: none;"></div>
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="https://bigscity-libcity-docs.readthedocs.io/en/latest/index.html#" class="icon icon-home" alt="Documentation Home"> Bigscity-LibCity
+          
+
+          
+          </a>
+
+          
+            
+            
+            
+              <div class="version">
+                latest
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="https://bigscity-libcity-docs.readthedocs.io/en/latest/search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/install.html">Install LibCity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/quick_start.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/directory_structure.html">Directory Structure</a></li>
+</ul>
+<p class="caption"><span class="caption-text">User Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/config_settings.html">Config Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/data.html">Data Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/model.html">Reproduced Model List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/evaluator.html">Evaluator Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/executor.html">Executor Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/usage.html">Usage</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/developer_guide/code_style.html">Code Style</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/developer_guide/implemented_datasets.html">Customize Dataset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/developer_guide/implemented_models.html">Customize Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/developer_guide/implemented_executors.html">Customize Executors</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Tutorial</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/install_quick_start.html">Install and quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/run_model.html">Run an existing model in LibCity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/add_model.html">Add a new model to LibCity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/hyper_tune.html">Tuning the model with automatic tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/data_visualization.html">Visualize Atomic Files</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API REFERENCE</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.config.html">libcity.config</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.data.html">libcity.data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.evaluator.html">libcity.evaluator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.executor.html">libcity.executor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.model.html">libcity.model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.pipeline.html">libcity.pipeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.utils.html">libcity.utils</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="https://bigscity-libcity-docs.readthedocs.io/en/latest/index.html#">Bigscity-LibCity</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="https://bigscity-libcity-docs.readthedocs.io/en/latest/index.html#" class="icon icon-home"></a> »</li>
+        
+      <li>Welcome to Bigscity-LibCity’s documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/LibCity/Bigscity-LibCity-Docs/blob/master/source/index.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-bigscity-libcity-s-documentation">
+<h1>Welcome to Bigscity-LibCity’s documentation!<a class="headerlink" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/index.html#welcome-to-bigscity-libcity-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Get Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/install.html">Install LibCity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/quick_start.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/directory_structure.html">Directory Structure</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">User Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/config_settings.html">Config Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/data.html">Data Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/model.html">Reproduced Model List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/evaluator.html">Evaluator Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/executor.html">Executor Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/user_guide/usage.html">Usage</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Developer Guide</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/developer_guide/code_style.html">Code Style</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/developer_guide/implemented_datasets.html">Customize Dataset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/developer_guide/implemented_models.html">Customize Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/developer_guide/implemented_executors.html">Customize Executors</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Tutorial</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/install_quick_start.html">Install and quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/run_model.html">Run an existing model in LibCity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/add_model.html">Add a new model to LibCity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/hyper_tune.html">Tuning the model with automatic tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/tutorial/data_visualization.html">Visualize Atomic Files</a></li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">API REFERENCE</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.config.html">libcity.config</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.data.html">libcity.data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.evaluator.html">libcity.evaluator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.executor.html">libcity.executor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.model.html">libcity.model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.pipeline.html">libcity.pipeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/libcity/libcity.utils.html">libcity.utils</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/index.html#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="https://bigscity-libcity-docs.readthedocs.io/en/latest/search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="https://bigscity-libcity-docs.readthedocs.io/en/latest/get_started/introduction.html" class="btn btn-neutral float-right" title="Introduction" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr><div><div id="rtd-sidebar" data-ea-publisher="readthedocs" data-ea-type="readthedocs-sidebar" data-ea-manual="true" class="ethical-rtd loaded" data-ea-keywords="python|readthedocs-project-668498|readthedocs-project-bigscity-libcity-docs" data-ea-campaign-types="community|house|paid"><div class="ethical-sidebar"><div class="ethical-content"><a href="https://server.ethicalads.io/proxy/click/2132/3685406a-ab00-441d-9852-676f2c664def/" rel="nofollow noopener" target="_blank" class="ethical-image-link"><img src="./homepage_files/modernize-apps.png" alt="Sponsored: LaunchDarkly"></a><div class="ethical-text"><a href="https://server.ethicalads.io/proxy/click/2132/3685406a-ab00-441d-9852-676f2c664def/" rel="nofollow noopener" target="_blank"><strong>LaunchDarkly: </strong><span>Migrate applications in a safer, more efficient way.</span><strong> Click to learn how today!</strong></a></div></div><div class="ethical-callout"><small><em><a rel="nofollow noopener" target="_blank" href="https://ethicalads.io/?ref=rtd-sidebar">Ad by EthicalAds</a><span> &nbsp; · &nbsp; </span><a rel="nofollow noopener" target="_blank" href="https://www.ethicalads.io/publishers/?ref=rtd-sidebar-join">Monetize your site</a></em></small></div></div></div></div>
+
+  <div role="contentinfo">
+    <p>
+        
+        © Copyright 2020, aptx1231
+      <span class="commit">
+        
+        Revision <code>24b7ecb9</code>.
+      </span>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org/">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions"><!-- Inserted RTD Footer -->
+
+<div class="injected">
+
+  
+
+      
+      
+      <dl>
+        <dt>Languages</dt>
+
+        
+        
+        <dd class="rtd-current-item">
+          <a href="https://bigscity-libcity-docs.readthedocs.io/en/latest/">en</a>
+        </dd>
+
+        
+        
+        
+        
+        
+        <dd>
+          <a href="https://bigscity-libcity-docs.readthedocs.io/zh_CN/latest/">zh_CN</a>
+        </dd>
+        
+        
+        
+
+      </dl>
+      
+      
+      <dl>
+        <dt>版本</dt>
+        
+        <dd class="rtd-current-item">
+          <a href="https://bigscity-libcity-docs.readthedocs.io/en/latest/">latest</a>
+        </dd>
+        
+      </dl>
+      
+      
+
+      
+      
+      <dl>
+        <dt>下载</dt>
+        
+        <dd><a href="https://bigscity-libcity-docs.readthedocs.io/_/downloads/en/latest/pdf/">PDF</a></dd>
+        
+        <dd><a href="https://bigscity-libcity-docs.readthedocs.io/_/downloads/en/latest/htmlzip/">HTML</a></dd>
+        
+      </dl>
+      
+      
+
+      
+      <dl>
+        
+        <!-- These are kept as relative links for internal installs that are http -->
+        <dt>On Read the Docs</dt>
+        <dd>
+          <a href="https://readthedocs.org/projects/bigscity-libcity-docs/">Project Home</a>
+        </dd>
+        <dd>
+          <a href="https://readthedocs.org/projects/bigscity-libcity-docs/builds/">构建</a>
+        </dd>
+        <dd>
+          <a href="https://readthedocs.org/projects/bigscity-libcity-docs/downloads/">下载</a>
+        </dd>
+      </dl>
+      
+
+      
+
+      
+      <dl>
+        <dt>On GitHub</dt>
+        <dd>
+          <a href="https://github.com/LibCity/Bigscity-LibCity-Docs/blob/master/source/index.rst">View</a>
+        </dd>
+        
+        <dd>
+          <a href="https://github.com/LibCity/Bigscity-LibCity-Docs/edit/master/source/index.rst">编辑</a>
+        </dd>
+        
+      </dl>
+      
+      
+
+      
+      <dl>
+        <dt>搜索</dt>
+        <dd>
+          <div style="padding: 6px;">
+            
+            <form id="flyout-search-form" class="wy-form" target="_blank" action="https://readthedocs.org/projects/bigscity-libcity-docs/search/" method="get">
+              <input type="text" name="q" aria-label="Search docs" placeholder="Search docs">
+              </form>
+          </div>
+        </dd>
+      </dl>
+      
+
+      <hr>
+
+      
+        <small>
+          <span>Hosted by <a href="https://readthedocs.org/">Read the Docs</a></span>
+          <span> · </span>
+          <a href="https://docs.readthedocs.io/page/privacy-policy.html">Privacy Policy</a>
+        </small>
+      
+
+      
+
+</div>
+</div>
+  </div>
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+   
+
+
+</body></html>
