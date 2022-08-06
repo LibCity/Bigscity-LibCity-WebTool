@@ -8,6 +8,14 @@
 
 We have developed an experiment management tool for the LibCity platform, which allows users to complete basic functions such as data upload, data visualization, new experiment, experiment run, experiment result display, and experiment comparison in a visual interface.
 
+## Deployment Manuals
+
+Deployment manuals can be viewed in this [document](./部署手册.md) (Chinese), [document](./DeploymentManual.md) (English).
+
+## User Manuals
+
+User manuals can be viewed in this [document](./使用手册.md) (Chinese), [document](./UserManual.md) (English).
+
 ## Features
 
 ### Data set visualization
@@ -31,14 +39,6 @@ We have developed an experiment management tool for the LibCity platform, which 
 ### Experimental Performance Comparison
 
 ![](./pic/15.png)
-
-## Deployment Manuals
-
-Deployment manuals can be viewed in this [document](./部署手册.md) (Chinese), [document](./DeploymentManual.md) (English).
-
-## User Manuals
-
-User manuals can be viewed in this [document](./使用手册.md) (Chinese), [document](./UserManual.md) (English).
 
 ## License
 
