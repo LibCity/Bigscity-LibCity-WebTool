@@ -34,13 +34,13 @@ We have developed an experiment management tool for the LibCity platform, which 
 
 ## Deployment Manuals
 
-Deployment manuals can be viewed in this [document](./部署手册.md) (Chinese), document (English under development).
+Deployment manuals can be viewed in this [document](./部署手册.md) (Chinese), [document](./Deployment Manual.md) (English).
 
 ## User Manuals
 
-User manuals can be viewed in this [document](./使用手册.md) (Chinese), document (English under development).
+User manuals can be viewed in this [document](./使用手册.md) (Chinese), [document](./User Manual.md) (English).
 
 ## License
 
-LibCity uses [Apache License 2.0](./LICENSE.txt).
+LibCity uses [Apache License 2.0](./LICENSE.txt). 
 
